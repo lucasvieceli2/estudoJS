@@ -1,10 +1,2 @@
-Meu Primeiro Repositório 
-======================== 
-
-O Git/GitHub são legais!
-
-teste
-TESTE
-
-etSTANDO
-TESTE
+___________________
+Area de estudo de JAVASCRIPT
