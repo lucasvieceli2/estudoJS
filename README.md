@@ -5,3 +5,6 @@ O Git/GitHub são legais!
 
 teste
 TESTE
+
+etSTANDO
+TESTE
