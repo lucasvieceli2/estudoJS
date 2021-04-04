@@ -6,3 +6,7 @@ function createPhrases() {
     console.log('Paciencia e persistencia')
     console.log('Revisao é a mae do aprendizado')
 }
+
+createPhrases()
+createPhrases()
+createPhrases()

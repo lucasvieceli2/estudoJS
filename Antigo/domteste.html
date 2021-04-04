@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <button onclick="adicionarBox()">Clica aqui</button>
+        <script>
+            function adicionarBox() {
+
+            var linkElement = document.createElement('div');
+            
+            linkElement.setAttribute('class', 'box');
+            linkElement.setAttribute('style', 'width: 100px; height: 100px; background-color: rgb(255, 0, 0);');
+            linkElement.setAttribute('onmouseover', 'getRandomColor()');
+            var containerElement = document.querySelector('body');
+            containerElement.appendChild(linkElement);
+
+/*             var boxElement = document.querySelector('.box');
+            boxElement.style.width = 100;
+            boxElement.style.height = 100;
+            boxElement.style.backgroundColor = '#f00'; */
+        }
+        function getRandomColor() {  var letters = "0123456789ABCDEF";  var color = "#";  for (var i = 0; i < 6; i++) {    color += letters[Math.floor(Math.random() * 16)];  }  return color;}var newColor = getRandomColor(); // #E943F0
+
+        </script>
+    </body>
+</html>
